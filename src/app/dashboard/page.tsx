@@ -1,13 +1,13 @@
 // File: src/app/dashboard/page.tsx
-import ExploreMenuServer from "@/components/ExploreMenuServer";
-import { supabaseServer } from "@/lib/supabase/server";
+import ExploreMenuServer from "../../components/ExploreMenuServer";
+import { supabaseServer } from "../../lib/supabase/server";
 
 // Dashboard cards (be sure these exist at these paths)
 // If you don't have one yet, comment it out temporarily.
-import AssessmentCard from "@/components/dashboard/AssessmentCard";
-import CoachGuidanceCard from "@/components/dashboard/CoachGuidanceCard";
-import UpcomingEventsCard from "@/components/dashboard/UpcomingEventsCard";
-import MessagesPreviewCard from "@/components/dashboard/MessagesPreviewCard";
+import AssessmentCard from "../../components/dashboard/AssessmentCard";
+import CoachGuidanceCard from "../../components/dashboard/CoachGuidanceCard";
+import UpcomingEventsCard from "../../components/dashboard/UpcomingEventsCard";
+import MessagesPreviewCard from "../../components/dashboard/MessagesPreviewCard";
 // import ResourcesPreviewCard from "@/components/dashboard/ResourcesPreviewCard"; // optional
 
 export default async function DashboardPage() {
